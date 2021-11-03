@@ -27,21 +27,21 @@ function VaccineDetails() {
 console.log(`pin is :${pin}`);
 
     useEffect(() => {
-        console.log(`Id get : ${districtId}`);
+        // console.log(`Id get : ${districtId}`);
         // console.log(`Date is : ${date}`);
    if(pin ==="" ){
         axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=${districtId}&date=${dateDetails[0].today}`) //FETCH ALL VACCINE CENTERES
             .then(function (response) {
-                console.log("Details get");
-                console.log(dateDetails[0].today);
+                // console.log("Details get");
+                // console.log(dateDetails[0].today);
                 // console.log(response.data.sessions); 
-                let centers = response.data.sessions
-                console.log(typeof (centers));
+                // let centers = response.data.sessions
+                // console.log(typeof (centers));
 
                 setvaccineDetails(response.data.sessions)
-                console.log("vaccineDetails");
+                // console.log("vaccineDetails");
 
-                console.log(vaccinedetails);
+                // console.log(vaccinedetails);
 
             })
         }
@@ -50,16 +50,16 @@ console.log(`pin is :${pin}`);
             console.log(`Pin search ${pin}`);
             axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=${pin}&date=${dateDetails[0].today}`) //FETCH ALL VACCINE CENTERES
             .then(function (response) {
-                console.log("Pin Deatails working");
-                console.log(dateDetails[0].today);
+                // console.log("Pin Deatails working");
+                // console.log(dateDetails[0].today);
                 // console.log(response.data.sessions); 
-                let centers = response.data.sessions
-                console.log(typeof (centers));
+                // let centers = response.data.sessions
+                
 
                 setvaccineDetails(response.data.sessions)
-                console.log("vaccineDetails");
+                // console.log("vaccineDetails");
 
-                console.log(vaccinedetails);
+                // console.log(vaccinedetails);
 
             })
         }
