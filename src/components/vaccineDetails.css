@@ -1,0 +1,145 @@
+.details{
+    
+    width: 100%;
+    
+    background-color: #55c3e9;
+    
+}
+.head{
+    width: 100%;
+    height: 50px;
+    background-color: #55c3e9;
+    display: flex;
+
+}
+.dates{
+    display: flex;
+    padding-right: 250px;
+}
+
+.date-btn{
+    width: 115px;
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 14px;
+    color:white;
+  /* background-color:#6181e6; */
+  /* border: 1.5px solid blueviolet; */
+  background-color:#6181e6;
+  font-size: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.centers{
+    width: 190%;
+    padding-left: 30px;
+}
+
+.centers{
+    width: 50%;
+    height: 130px;
+    background-color:white;
+    margin-bottom:15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 3px;
+    padding-right: 10px;
+    margin-left: 226px;
+}
+
+.type-btn{
+    border: none;
+    background-color:#6181e6;
+    border-radius: 10px;
+    margin-right: 2px;
+    width: 38px;
+    height: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 10px;
+    margin-top: 5px;
+
+    
+}
+.age-btn{
+    border: none;
+    background-color:#6181e6;
+    border-radius: 10px;
+    margin-right: 2px;
+    width: 36px;
+    height: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 10px;
+
+    
+}
+.vcn-btn{
+    border: none;
+    background-color:#6181e6;
+    border-radius: 10px;
+    margin-right: 2px;
+    width: 93px;
+    height: 20px;
+    font-family: cursive;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+    
+}
+.e-btn{
+    border: none;
+    background-color:#f70f07;
+    border-radius: 10px;
+    margin-right: 2px;
+    width: 93px;
+    height: 20px;
+    font-family: cursive;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.s-btn{
+    border: none;
+    background-color:#3eeb1c;
+    border-radius: 10px;
+    margin-right: 2px;
+    width: 93px;
+    height: 20px;
+    font-family: cursive;
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.name-tag{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top:8px
+}
+.adrs-tag{
+ font-size: 11px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-top: 8px;
+ font-weight: 400;
+}
+.date-tag{
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8px;
+    font-weight: 400;
+}
+.time-tag{
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8px;
+    font-weight: 400;
+}
+span{
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bolder;
+}

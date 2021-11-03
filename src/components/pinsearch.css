@@ -1,0 +1,34 @@
+.pin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pin-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height: 300px;
+    background-color: white;
+}
+#pin{
+    outline: none;
+    border: 2px solid #6181e6;
+    border-radius: 2px;
+    width: 250px;
+    height: 25px;
+}
+.cancel-pbtn{
+    width: 120px;
+    height: 25px;
+    color: white;
+    background-color: #6181e6;
+    border: none;
+    border-radius: 2px;
+    outline:none;
+    padding-left: 30px;
+    padding-top: 5px;
+    text-align: center;
+    
+
+}

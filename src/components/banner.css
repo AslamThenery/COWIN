@@ -1,24 +1,108 @@
 .banner{
     display: flex;
     flex-direction: column;
+    background-color: #55c3e9;
     
 }
+.banner-img{
+    display: flex;
+    padding: 10px;
+}
+
 .bnr-img{
+    
 height: 100vh;
 width: 500px;
-border: 1px solid gold;
 margin-top: 10px;
+background-color:#55c3e9 ;
 }
+.bnr-data{
+    margin-top: 50px;
+    width: 500px;
+}
+h1{
+    color: white;
+    font-family: inherit;
+}
+p{
+    color:black;
+    font-family: cursive;
+}
+
 .buttons{
     display: flex;
-    /* flex-direction: column; */
-    /* margin-left: 200px; */
-    /* justify-content: space-around; */
+    justify-content: space-evenly;
     width: 100%;
     height: 13vh;
-    background-color: gold;
+    /* background-color: #55c3e9; */
+    /* background-color:blue; */
 }
-.buttons button{
+.home{
+    /* display: flex; */
+    /* align-items: flex-start; */
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.btn{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.home-btn{
+    width: 76px;
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 14px;
+    color: black;
+  /* background-color:#6181e6; */
+  border: 1.5px solid rgb(53, 47, 59);
+  background-color:#55c3e9;
+  font-family: cursive;
+  
+  /* cursor: pointer; */
+}
+.home-btn:hover{
+    cursor: pointer;
+  background-color:#6181e6;
+  color: white;
+
+}
+.rg-vcn,.pin-search,.dis-search{
+    width: 115px;
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 14px;
+    color: black;
+  /* background-color:#6181e6; */
+  /* border: 1.5px solid blueviolet; */
+  background-color:#6181e6;
+  font-size: 10px;
+  font-family: cursive;
+  font-weight: bold;
+    
+}
+.rg-vcn:hover{
+    cursor: pointer;
+  background-color:#6181e6;
+  color: white;
+}
+.pin-search:hover{
+  color: white;
+
+    cursor: pointer;
+  background-color:#6181e6;
+}
+.dis-search:hover{
+  color: white;
+
+    cursor: pointer;
+  background-color:#6181e6;
+}
+/* /* .pin-search ,.rg-vcn ,.dis-search{
     width: 134px;
     height: 40px;
     margin-top: 15px;
@@ -28,7 +112,19 @@ margin-top: 10px;
     color: honeydew;
   background-color:#6181e6;
   cursor: pointer;
-}
-button :hover{
+} */
+/* .rg-vcn :hover{
     cursor: pointer;
 }
+.home-btn{
+    background-color: #55c3e9;
+    
+    border-radius: 5px;
+    border: none;
+    border-color: #6181e6;
+}  */
+
+/* .home-btn :hover{
+    cursor: pointer;
+    background-color: #6181e6;
+} */
