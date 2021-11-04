@@ -117,7 +117,7 @@ console.log(`pin is :${pin}`);
             <div className="head">
 
                 <div className="home">
-                    <button onClick={handleHome} className="home-btn">HOME</button>
+                    <button onClick={handleHome} className="vhome-btn">HOME</button>
                 </div>
                 <div className="dates">
                     <button className="date-btn" onClick={handleDate}>{dateCollection[0].today}</button>

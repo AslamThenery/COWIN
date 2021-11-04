@@ -25,12 +25,10 @@ function Banner() {
       <div className="banner">
          {/* <h2>banner working</h2> */}
          <div className="buttons">
-            <div className="home">
+            <div className="bhome">
                <button className="home-btn">HOME</button>
             </div>
             <div className="btn">
-
-
                <button className="rg-vcn" >REGISTER VACCIN</button>
                <button className="pin-search" onClick={handlePin}>SEARCH BY PIN</button>
                <button className="dis-search" onClick={handleStates}>SEARCH BY DISTRICT</button>
@@ -39,6 +37,7 @@ function Banner() {
          <div className="banner-img">
             <div className="img">
 
+            <h1 id="heading">Find Your Nearest Vaccine Center</h1>
             <img className="bnr-img" src={vaccine} alt="" />
             </div>
             <div className="bnr-data">
@@ -48,6 +47,10 @@ function Banner() {
             “Vaccines are one of the most powerful tools in the history of public health, and more children are now being immunized than ever before,” said Dr Tedros Adhanom Ghebreyesus, WHO Director-General. “But the pandemic has put those gains at risk. The avoidable suffering and death caused by children missing out on routine immunizations could be far greater than COVID-19 itself. But it doesn’t have to be that way. Vaccines can be delivered safely even during the pandemic, and we are calling on countries to ensure these essential life-saving programmes continue.”
 
             </p>
+            </div>
+            <div className="bnr-heading">
+
+           
             </div>
          </div>
          
