@@ -135,18 +135,18 @@ function DistrictSearch() {
         :""}
        
        
-       <Button className="cancel-btn"  variant="primary" type="submit">
-          Submit
-        </Button>
         
        {
-       !value ?
-       <Button className="cancel-btn" onClick={handleCancel} variant="primary" type="submit">
+         !value ?
+         <Button className="cancel-btn" onClick={handleCancel} variant="primary" type="submit">
          
-          Cancel
+          Submit
         </Button>
         :""
       }
+      <Button className="cancel-btn"  variant="primary" type="submit">
+         Cancel
+       </Button>
         </div>
       </Form>
       </div>

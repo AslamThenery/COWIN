@@ -10,6 +10,8 @@
     width:500px;
     height: 300px;
     background-color: white;
+    margin-top: 100px;
+    border-radius: 3px;
 }
 #pin{
     outline: none;

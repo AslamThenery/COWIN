@@ -41,13 +41,13 @@
 
 .centers{
     width: 50%;
-    height: 130px;
+    height: 170px;
     background-color:white;
     margin-bottom:15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 3px;
     padding-right: 10px;
-    margin-left: 226px;
+    margin-left: 270px;
 }
 
 .type-btn{
@@ -55,12 +55,12 @@
     background-color:#6181e6;
     border-radius: 10px;
     margin-right: 2px;
-    width: 38px;
+    width: 45px;
     height: 20px;
     color: white;
     font-family: cursive;
-    font-size: 10px;
-    margin-top: 5px;
+    font-size: 13px;
+    margin-top: 20px;
 
     
 }
@@ -69,11 +69,12 @@
     background-color:#6181e6;
     border-radius: 10px;
     margin-right: 2px;
-    width: 36px;
+    width: 45px;
     height: 20px;
     color: white;
     font-family: cursive;
-    font-size: 10px;
+    font-size: 13px;
+    margin-top: 20px;
 
     
 }
@@ -82,11 +83,11 @@
     background-color:#6181e6;
     border-radius: 10px;
     margin-right: 2px;
-    width: 93px;
+    width: 100px;
     height: 20px;
     font-family: cursive;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 20px;
     
 }
@@ -95,11 +96,11 @@
     background-color:#f70f07;
     border-radius: 10px;
     margin-right: 2px;
-    width: 93px;
+    width: 100px;
     height: 20px;
     font-family: cursive;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 20px;
 }
 .s-btn{
@@ -107,11 +108,11 @@
     background-color:#3eeb1c;
     border-radius: 10px;
     margin-right: 2px;
-    width: 93px;
+    width: 119px;
     height: 20px;
     font-family: cursive;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 20px;
 }
 .name-tag{
@@ -121,21 +122,21 @@
     margin-top:8px
 }
 .adrs-tag{
- font-size: 11px;
+ font-size: 13px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- margin-top: 8px;
+ margin-top: 12px;
  font-weight: 400;
 }
 .date-tag{
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 8px;
+    margin-top: 12px;
     font-weight: 400;
 }
 .time-tag{
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 8px;
+    margin-top: 12px;
     font-weight: 400;
 }
 span{

@@ -73,8 +73,8 @@ console.log(`pin is :${pin}`);
     const handleDate = (e) => {
         console.log(e.target.innerText);
         if(pin === ""){
-
-            axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=299&date=${e.target.innerText}`) //FETCH ALL VACCINE CENTERES
+            dateDetails[0].today = e.target.innerText
+            axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=299&date=${dateDetails[0].today}`) //FETCH ALL VACCINE CENTERES
             .then(function (response) {
                 console.log("Details get");
                 // console.log(dateDetails[0].today);
@@ -90,7 +90,9 @@ console.log(`pin is :${pin}`);
             })
         }
         else{
-            axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=${pin}&date=${e.target.innerText}`) //FETCH ALL VACCINE CENTERES
+            dateDetails[0].today = e.target.innerText
+
+            axios.get(`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=${pin}&date=${dateDetails[0].today}`) //FETCH ALL VACCINE CENTERES
             .then(function (response) {
                 console.log("Pin Deatails working");
                  

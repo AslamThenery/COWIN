@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color:#55c3e9;
-    height: 400px;
+    height: 100vh;
     width: 100%;
     
 }
@@ -11,8 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 350px;
     background-color: white;
     /* background-color:blue; */
     border-radius: 5px;
@@ -25,7 +25,7 @@
     width: 400px;
     /* min-width: 500px; */
     margin-left: 0px;
-    height: 29px;
+    height: 35px;
     border-radius: 2px ;
     border-bottom: 2px solid #8f94a7;
     /* border-bottom: tomato; */
@@ -34,20 +34,21 @@
 .form-btn{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-right: 2px;
 }
 
 .cancel-btn{
     /* padding: px; */
     width:150px;
-    height: 25px;
+    height: 35px;
     text-align: center;
     background-color:#6181e6 ;
     border:none;
     border-radius: 3px;
-    padding-top: 5px;
+    padding-top: 11px;
     padding-left: 50px;
+    font-size: 15px;
 }
 .cancel-btn:hover{
     cursor: pointer;
