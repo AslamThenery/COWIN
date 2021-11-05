@@ -43,7 +43,7 @@ console.log(value);
                 <div className="form-pin">
 
        
-            <input onChange={handlePin} type="text" id="pin" />
+            <input placeholder="Enter Pin" onChange={handlePin} type="text" id="pin" />
                 </div>
         <div className="form-btn">
 

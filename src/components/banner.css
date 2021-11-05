@@ -8,6 +8,9 @@
     display: flex;
     padding: 10px;
 }
+#heading{
+  display: none;
+}
 
 .bnr-img{
     
@@ -140,6 +143,7 @@ p{
   /* margin-left: 30px; */
 }
 .home-btn{
+  display:none;
   width: 54px;
   height: 37px;
   margin-top: 16px;
