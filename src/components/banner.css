@@ -176,6 +176,7 @@ font-family: cursive;
     display: block;
   }
   #heading{
+    display: block;
     font-size: 22px;
   }
 }
@@ -246,6 +247,7 @@ font-family: cursive;
     display: block;
   }
   #heading{
+    display: block;
     font-size: 22px;
   }
 }
