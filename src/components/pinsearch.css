@@ -32,6 +32,32 @@
     padding-top: 5px;
     text-align: center;
 }
+@media only screen and (max-width: 375px) {
+    #pin-search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:320px;
+        height: 270px;
+        background-color: white;
+        margin-top: 150px;
+        border-radius: 3px;
+    }
+    .cancel-pbtn{
+        width: 120px;
+        height: 25px;
+        color: white;
+        background-color: #6181e6;
+        border: none;
+        border-radius: 2px;
+        outline:none;
+        padding-left: 30px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    
+  }
+  
 @media only screen and (max-width: 360px) {
     #pin-search{
         display: flex;
