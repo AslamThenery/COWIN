@@ -12,6 +12,10 @@ select{
     border-bottom: 2px solid #8f94a7;
 
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 /* option{
     width: 200px;

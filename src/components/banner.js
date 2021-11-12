@@ -29,7 +29,7 @@ function Banner() {
                <button className="home-btn">HOME</button>
             </div>
             <div className="btn">
-               <button className="rg-vcn" >REGISTER VACCIN</button>
+               <button className="rg-vcn" > <a href="https://selfregistration.cowin.gov.in/"> REGISTER VACCIN</a></button>
                <button className="pin-search" onClick={handlePin}>SEARCH BY PIN</button>
                <button className="dis-search" onClick={handleStates}>SEARCH BY DISTRICT</button>
             </div>

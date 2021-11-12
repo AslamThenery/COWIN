@@ -144,7 +144,7 @@ function DistrictSearch() {
         </Button>
         :""
       }
-      <Button className="cancel-btn"  variant="primary" type="submit">
+      <Button className="cancel-btn" onClick={handleCancel} variant="primary" type="submit">
          Cancel
        </Button>
         </div>
